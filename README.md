@@ -35,13 +35,13 @@ Legend:
 
 - [ ] 🍛 **Function Currying**
     - [x] 🟩 EASY [01. Easy Currying](src/01_design_patterns/01_function_currying/01_easy_currying.js)
-    - [ ] 🟥 HARD  [02. Advanced Curryin](src/01_design_patterns/01_function_currying/02_advanced_curry.js)
+    - [X] 🟥 HARD  [02. Advanced Curryin](src/01_design_patterns/01_function_currying/02_advanced_curry.js)
 
 - [ ] 🏛️ **Prototypal Inheritance**
-    - [ ] 🟩 EASY [03. Prototypal Inheritance](src/01_design_patterns/02_prototypal_inheritance/03_object_inheritance.js)
+    - [X] 🟩 EASY [03. Prototypal Inheritance](src/01_design_patterns/02_prototypal_inheritance/03_object_inheritance.js)
 
 - [ ] 🔗 **Higher-Order Functions**
-  - [ ] 🟨 MEDIUM [04. Timed Execution](src/01_design_patterns/03_higher_order_functions/04_timed_execution.js)
+  - [X] 🟨 MEDIUM [04. Timed Execution](src/01_design_patterns/03_higher_order_functions/04_timed_execution.js)
 
 #### ⏳ 02. Asynchronous JavaScript
 
