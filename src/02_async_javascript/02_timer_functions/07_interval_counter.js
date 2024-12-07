@@ -8,6 +8,22 @@ If n is less than 1, the function should immediately print "Invalid input".
 */
 function startCounter(n, delay) {
     // Implement this function
+    let counter = 1;
+    if (n < 1) {
+        console.log("Invalid input")
+    } else {
+        console.log(counter);
+        counter++;
+        const intervalId = setInterval(() => {
+            if (counter > n) {
+                clearInterval(intervalId)
+            } else {
+                console.log(counter);
+                counter++;
+            }
+        }, delay)
+    }
+
 }
 
 module.exports = startCounter;

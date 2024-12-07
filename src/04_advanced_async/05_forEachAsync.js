@@ -11,7 +11,12 @@ and wait for each callback to execute before moving on to the next.
 */
 
 async function forEachAsync(array, callback) {
-    // Implement this function
+    const result = []
+    for (let i=0; i < array.length; i++) {
+        const clbResult = await callback(array[i], i, array);
+        result.push(clbResult)
+    }
+    return result
 }
 
-module.exports = forEachAsync;
+module.exports = forEachAsync; 
